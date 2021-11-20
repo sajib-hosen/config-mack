@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Price</title>
+    <!-- stylesheet >> vanilla css  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google font >> Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- <nav>there is no nav.</nav> -->
+    </header>
+    <main>
+        <div class="container">
+
+            <!-- imge section  -->
+            <section class="sec image-sec">
+                <img src="https://raw.githubusercontent.com/ProgrammingHero1/mac-book-pro/main/images/mac.png" alt="mac book images.">
+            </section>
+
+            <!-- contect section  -->
+            <section class="sec pricing-part">
+                <h1 class="head-font">Customize your bule 24-inch iMach with apple M1 chip.</h1>
+                <p>apple M1 chip with 8-core CPU with 4 performance core and 4 efficiency cors, 7-core GPU,
+                     and 16-core Neural Engine 8GB unified memory 256 GB SSD storage Two Thunderbolt/USD
+                      4 ports magic Mouse Magic Keyboard -US English.</p>
+                
+                <!-- memory buttons  -->
+                <div class="btn-secion">
+                    <h3 class="sub-head-font">Memory</h3>
+                    <button id="memory8" class="btn">8GB unified memory</button>
+                    <button id="memory16" class="btn">16GB unified memory</button>
+                </div>
+
+                <!-- storage buttons  -->
+                <div class="btn-secion">
+                    <h3 class="sub-head-font">Storage</h3>
+                    <button id="storage256" class="btn">256GB SSD Storage</button>
+                    <button id="storage512" class="btn">512GB SSD Storage</button>
+                    <button id="storage1tb" class="btn">1TB SSD Storage</button>
+                </div>
+                <!-- delivery buttons  -->
+                <div class="btn-secion">
+                    <h3 class="sub-head-font">Choose your delivery option</h3>
+                    <button id="delivery00" class="btn">Friday, Aug 25 FREE Prime Delivery</button>
+                    <button id="delivery20" class="btn">Friday, Aug 21 Delivery Charge $20</button>
+                </div>
+
+                <!-- billing section  -->
+                <div class="bill-sec">
+    
+                   <div class="single-account">
+                    <div class="account"><h1>Basic Price</h1></div>
+                    <div class="amount"><h1>$<span id="basicPrice">1299</span></h1></div>
+                   </div>
+                   <div class="single-account">
+                    <div class="account"><h1>Extra Memory Cost</h1></div>
+                    <div class="amount"><h1>$<span id="extraMemory">0</span></h1></div>
+                   </div>
+                   <div class="single-account">
+                    <div class="account"><h1>Extra Storage Cost</h1></div>
+                    <div class="amount"><h1>$<span id="extraStorage">0</span></h1></div>
+                   </div>
+                   <div class="single-account l-border">
+                    <div class="account"><h1>Delivery Charge</h1></div>
+                    <div class="amount"><h1>$<span id="deliveryCharge">0</span></h1></div>
+                   </div>
+                   <div class="single-account">
+                    <div class="account"><h1>Total Price</h1></div>
+                    <div class="amount"><h1>$<span id="grossTotal">0</span></h1></div>
+                   </div>
+                   <br>
+                   <h3>Add pomo code(stevekaku)</h3>
+                   <div class="pomo-field">
+                    <div class="input-field"><input type="text" name="promoCode"  id="pomoCode"></div>
+                    <div class="btnPomo"><button id="btnPomo">Apply</button></div>
+                   </div>
+                </div>
+            </section>
+        </div>
+        <h1 class="netPrice">Total: $<span id="netValue">00</span></h1>
+        <br><br><br><br><br>
+    </main>
+    <script src="/macBook.js"></script>
+</body>
+</html>

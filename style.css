@@ -1,0 +1,94 @@
+/* common style ----------------------------------------------------------------------- */
+body{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* main container -------------------------------------------------------------------- */
+
+.container{
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-top: 30px;
+    border-bottom: 2px solid dimgrey;
+}
+
+/* each section --------------------------------------------------------- */
+.sec{
+    width: 50%;
+}
+
+.image-sec img{
+    width: 100%;
+}
+/* text and heading design  */
+.head-font{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 40px;
+}
+.sub-head-font{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 20px;
+}
+/* button Design  */
+.btn-secion{
+    padding: 15px;
+    
+}
+.btn{
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: white;
+}
+.btn:hover{
+    background-color: rgb(63, 62, 65);
+    color: white;
+    box-shadow: 0px 0px 10px purple;
+}
+
+/* bill section ----------------------------------------------------------*/
+
+.bill-sec{
+    width: 350px;
+    margin-top: 30px;
+}
+.bill-sec h1{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.single-account{
+    display: flex;
+    border-bottom: 1px solid dimgray;
+}
+.l-border{
+    border-bottom: 3px solid rgb(12, 12, 12);
+}
+.account{
+    width: 250px;
+}
+/* pomo field ----------------------------------------------------- */
+.pomo-field{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.input-field input{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btnPomo button{
+    padding: 10px;
+    background-color: lawngreen;
+    border-radius: 5px;
+}
+
+/* net Price -------------------------------------------------------- */
+.netPrice{
+    text-align: center;
+}
